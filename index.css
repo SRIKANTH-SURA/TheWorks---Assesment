@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.wrapper {
+    background-color: #ffa1a9;
+    padding: 20px;
+    color: #2a2a63;
+    font-family: "Roboto";
+}
+
+.profile-container,
+.work-container,
+.skills-awards-section,
+.education-container {
+    padding: 25px;
+    padding-bottom: 0px;
+}
+
+@media(max-width:768px) {
+
+    .profile-container,
+    .work-container,
+    .skills-awards-section,
+    .intrests-section,
+    .education-container {
+        text-align: center;
+        padding: 10px;
+        border: 4px solid #2a2a63;
+        border-radius: 10px;
+    }
+}
+
+
+.profile-icon {
+    font-size: 40px;
+    padding: 12px 15px;
+    border: 3px solid #2a2a63;
+    color: #2a2a63;
+    border-radius: 50%;
+}
+
+.icon-text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+
+.profile-name {
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.profile-disignation {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile-address-container p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .profile-name-container {
+        height: 200px;
+        border-bottom: 4px solid #2a2a63;
+        border-right: 4px solid #2a2a63;
+    }
+
+    .profile-address-container {
+        height: 200px;
+        border-bottom: 4px solid #2a2a63;
+    }
+}
+
+.work-icon {
+    font-size: 40px;
+    padding: 15px;
+    border: 3px solid #2a2a63;
+    color: #2a2a63;
+    border-radius: 50%;
+}
+
+.skills-icon,
+.hobbis-icon {
+    font-size: 40px;
+    padding: 12px 17px;
+    border: 3px solid #2a2a63;
+    color: #2a2a63;
+    border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+    .skills-content {
+        border: 4px solid #2a2a63;
+        border-left: none;
+    }
+}
+
+.full-stop p {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #2a2a63;
+    margin: 0px 3px;
+    ;
+}
+
+.intrests-section {
+    padding: 25px;
+}
+
+@media (min-width: 768px) {
+    .awards-content {
+        border-bottom: 4px solid #2a2a63;
+        border-top: 4px solid #2a2a63;
+    }
+
+    .intrests-section-content {
+        border-bottom: 4px solid #2a2a63;
+    }
+}
+
+
+
+.desktop-icon,
+.pencil-icon,
+.movie-icon,
+.music-icon {
+    font-size: 40px;
+    border: 3px solid #2a2a63;
+    color: #2a2a63;
+    border-radius: 50%;
+    background-color: #2a2a63;
+    color: #ffa1a9;
+}
+
+.desktop-icon {
+    padding: 14px 12px;
+}
+
+.pencil-icon {
+    padding: 14px;
+}
+
+.movie-icon {
+    padding: 15px 10px;
+}
+
+.music-icon {
+    padding: 14px 19px;
+}
+
+.hobbis-icon-text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+
+.education-icon {
+    font-size: 40px;
+    padding: 17px;
+    border: 3px solid #2a2a63;
+    color: #2a2a63;
+    border-radius: 50%;
+}
